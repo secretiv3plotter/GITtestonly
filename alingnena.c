@@ -9,7 +9,7 @@ typedef struct product {
     char name[50];
     char unit[50];
     double price;
-    char product_code[20];
+    char product_code[20];         //GIT TEST ONLY WOWOWOWOW
 }product;
 
 void generate_product_code(product*);
